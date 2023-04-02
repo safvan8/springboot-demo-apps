@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "org.ineuron",
+      "type": "in.ineuron.comps.Company",
+      "sourceType": "in.ineuron.comps.Company"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
