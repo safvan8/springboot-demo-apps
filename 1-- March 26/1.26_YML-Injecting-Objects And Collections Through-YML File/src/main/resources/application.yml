@@ -1,0 +1,39 @@
+emp:
+  info:
+    name: Sadio Mane
+    salary: 55000
+    
+    #HAS-A property injection
+    account:
+      accNo: 232SAS23TYJGJS1HIS33432
+      branch: MLP
+      location: PMNA
+    
+    #Array object injection
+    skillSet:
+      - java
+      - Jee
+      - Spring
+      
+    #List object injection
+    projectNames:
+      - Senegal World CUp
+      - Bayern UCL
+      - Bundesliga
+    
+    #Set Object injection
+    mobileNumbers:
+      - 9997778886
+      - 5556667776
+      
+    #Map object injection
+    id-details:
+      adharNo: 7645345
+      panNo: 232345
+      voterId: 2323454
+
+
+
+
+      
+      
