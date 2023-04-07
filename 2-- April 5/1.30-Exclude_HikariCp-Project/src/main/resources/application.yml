@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    password: Safvan@123
+    url: jdbc:mysql:///springdemodbo
+    username: root
