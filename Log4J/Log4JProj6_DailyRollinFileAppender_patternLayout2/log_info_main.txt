@@ -1,0 +1,504 @@
+2023-05-06 12:28:08INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:08DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:08DEBUG o.JDBCSelectApp       main main       52 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:09INFO o.JDBCSelectApp       main main       579 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:09DEBUG o.JDBCSelectApp       main main       583 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:09DEBUG o.JDBCSelectApp       main main       591 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:09WARN o.JDBCSelectApp       main main       598 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:09DEBUG o.JDBCSelectApp       main main       598 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:09DEBUG o.JDBCSelectApp       main main       599 95 end of main method
+2023-05-06 12:28:12INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:12DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:12DEBUG o.JDBCSelectApp       main main       45 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:12INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:12DEBUG o.JDBCSelectApp       main main       1 39 Start of main(-) method.
+2023-05-06 12:28:12DEBUG o.JDBCSelectApp       main main       43 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:12INFO o.JDBCSelectApp       main main       687 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:12DEBUG o.JDBCSelectApp       main main       692 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:12DEBUG o.JDBCSelectApp       main main       702 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:12WARN o.JDBCSelectApp       main main       703 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:12DEBUG o.JDBCSelectApp       main main       705 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:12DEBUG o.JDBCSelectApp       main main       705 95 end of main method
+2023-05-06 12:28:13INFO o.JDBCSelectApp       main main       660 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       664 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       678 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:13WARN o.JDBCSelectApp       main main       679 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       679 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       680 95 end of main method
+2023-05-06 12:28:13INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       4 39 Start of main(-) method.
+2023-05-06 12:28:13INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:13INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:13INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:13INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       138 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       120 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       131 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       99 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:13DEBUG o.JDBCSelectApp       main main       103 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:14INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:14DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:14INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:14DEBUG o.JDBCSelectApp       main main       8 39 Start of main(-) method.
+2023-05-06 12:28:14INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:14DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:14DEBUG o.JDBCSelectApp       main main       122 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:14INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:14DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:14DEBUG o.JDBCSelectApp       main main       133 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:14DEBUG o.JDBCSelectApp       main main       210 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:14DEBUG o.JDBCSelectApp       main main       156 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:15INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       7 39 Start of main(-) method.
+2023-05-06 12:28:15INFO o.JDBCSelectApp       main main       2021 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2031 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2046 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:15WARN o.JDBCSelectApp       main main       2046 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2047 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2048 95 end of main method
+2023-05-06 12:28:15INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       4 39 Start of main(-) method.
+2023-05-06 12:28:15INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       6 39 Start of main(-) method.
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       148 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:15INFO o.JDBCSelectApp       main main       2189 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2196 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2209 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:15WARN o.JDBCSelectApp       main main       2210 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2211 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2211 95 end of main method
+2023-05-06 12:28:15INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       163 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       164 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:15INFO o.JDBCSelectApp       main main       2271 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2278 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       138 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2293 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:15WARN o.JDBCSelectApp       main main       2293 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2295 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:15DEBUG o.JDBCSelectApp       main main       2296 95 end of main method
+2023-05-06 12:28:16INFO o.JDBCSelectApp       main main       2695 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2703 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2728 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:16WARN o.JDBCSelectApp       main main       2730 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2731 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2732 95 end of main method
+2023-05-06 12:28:16INFO o.JDBCSelectApp       main main       2802 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2810 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2831 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:16WARN o.JDBCSelectApp       main main       2832 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2834 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2835 95 end of main method
+2023-05-06 12:28:16INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       116 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:16INFO o.JDBCSelectApp       main main       2426 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2432 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2445 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:16WARN o.JDBCSelectApp       main main       2446 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2448 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:16DEBUG o.JDBCSelectApp       main main       2449 95 end of main method
+2023-05-06 12:28:17INFO o.JDBCSelectApp       main main       2497 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2503 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2519 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:17WARN o.JDBCSelectApp       main main       2520 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2522 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2523 95 end of main method
+2023-05-06 12:28:17INFO o.JDBCSelectApp       main main       2678 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2685 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2703 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:17WARN o.JDBCSelectApp       main main       2703 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2704 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2705 95 end of main method
+2023-05-06 12:28:17INFO o.JDBCSelectApp       main main       2736 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2742 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2756 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:17WARN o.JDBCSelectApp       main main       2757 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2758 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2759 95 end of main method
+2023-05-06 12:28:17INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       95 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:17INFO o.JDBCSelectApp       main main       2075 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2081 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2095 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:17WARN o.JDBCSelectApp       main main       2096 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2097 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2098 95 end of main method
+2023-05-06 12:28:17INFO o.JDBCSelectApp       main main       2087 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:17INFO o.JDBCSelectApp       main main       2227 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2096 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2233 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2113 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:17WARN o.JDBCSelectApp       main main       2114 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2115 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2115 95 end of main method
+2023-05-06 12:28:17INFO o.JDBCSelectApp       main main       2035 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2041 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2259 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:17WARN o.JDBCSelectApp       main main       2261 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2262 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2262 95 end of main method
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2055 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:17WARN o.JDBCSelectApp       main main       2056 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2057 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:17DEBUG o.JDBCSelectApp       main main       2058 95 end of main method
+2023-05-06 12:28:18INFO o.JDBCSelectApp       main main       1395 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       1401 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       1411 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:18WARN o.JDBCSelectApp       main main       1411 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       1412 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       1413 95 end of main method
+2023-05-06 12:28:18INFO o.JDBCSelectApp       main main       807 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       812 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       821 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:18WARN o.JDBCSelectApp       main main       822 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       823 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       824 95 end of main method
+2023-05-06 12:28:18INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:18DEBUG o.JDBCSelectApp       main main       56 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:19INFO o.JDBCSelectApp       main main       598 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:19DEBUG o.JDBCSelectApp       main main       603 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:19DEBUG o.JDBCSelectApp       main main       611 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:19WARN o.JDBCSelectApp       main main       612 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:19DEBUG o.JDBCSelectApp       main main       613 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:19DEBUG o.JDBCSelectApp       main main       614 95 end of main method
+2023-05-06 12:28:20INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:20DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:20DEBUG o.JDBCSelectApp       main main       56 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:20INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:20DEBUG o.JDBCSelectApp       main main       1 39 Start of main(-) method.
+2023-05-06 12:28:20DEBUG o.JDBCSelectApp       main main       47 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:20INFO o.JDBCSelectApp       main main       713 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:20DEBUG o.JDBCSelectApp       main main       717 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:20DEBUG o.JDBCSelectApp       main main       725 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:20WARN o.JDBCSelectApp       main main       726 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:20DEBUG o.JDBCSelectApp       main main       727 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:20DEBUG o.JDBCSelectApp       main main       727 95 end of main method
+2023-05-06 12:28:21INFO o.JDBCSelectApp       main main       696 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:21DEBUG o.JDBCSelectApp       main main       701 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:21DEBUG o.JDBCSelectApp       main main       712 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:21WARN o.JDBCSelectApp       main main       714 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:21DEBUG o.JDBCSelectApp       main main       715 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:21DEBUG o.JDBCSelectApp       main main       716 95 end of main method
+2023-05-06 12:28:21INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:21DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:21DEBUG o.JDBCSelectApp       main main       52 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:22INFO o.JDBCSelectApp       main main       623 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:22DEBUG o.JDBCSelectApp       main main       627 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:22DEBUG o.JDBCSelectApp       main main       635 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:22WARN o.JDBCSelectApp       main main       636 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:22DEBUG o.JDBCSelectApp       main main       637 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:22DEBUG o.JDBCSelectApp       main main       637 95 end of main method
+2023-05-06 12:28:23INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:23DEBUG o.JDBCSelectApp       main main       1 39 Start of main(-) method.
+2023-05-06 12:28:23DEBUG o.JDBCSelectApp       main main       51 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:23INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:23DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:23DEBUG o.JDBCSelectApp       main main       48 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:23INFO o.JDBCSelectApp       main main       694 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:23DEBUG o.JDBCSelectApp       main main       699 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:23DEBUG o.JDBCSelectApp       main main       708 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:23WARN o.JDBCSelectApp       main main       708 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:23DEBUG o.JDBCSelectApp       main main       709 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:23DEBUG o.JDBCSelectApp       main main       710 95 end of main method
+2023-05-06 12:28:24INFO o.JDBCSelectApp       main main       672 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:24DEBUG o.JDBCSelectApp       main main       679 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:24DEBUG o.JDBCSelectApp       main main       691 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:24WARN o.JDBCSelectApp       main main       691 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:24DEBUG o.JDBCSelectApp       main main       692 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:24DEBUG o.JDBCSelectApp       main main       693 95 end of main method
+2023-05-06 12:28:24INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:24DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:24DEBUG o.JDBCSelectApp       main main       61 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:25INFO o.JDBCSelectApp       main main       639 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       645 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       653 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:25WARN o.JDBCSelectApp       main main       654 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       655 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       655 95 end of main method
+2023-05-06 12:28:25INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:25INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:25INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       79 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       100 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:25DEBUG o.JDBCSelectApp       main main       92 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:26INFO o.JDBCSelectApp       main main       848 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       854 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:26INFO o.JDBCSelectApp       main main       841 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       848 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       866 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:26WARN o.JDBCSelectApp       main main       866 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       868 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       868 95 end of main method
+2023-05-06 12:28:26INFO o.JDBCSelectApp       main main       860 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       862 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:26WARN o.JDBCSelectApp       main main       862 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       863 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       864 95 end of main method
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       867 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       879 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:26WARN o.JDBCSelectApp       main main       879 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       881 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:26DEBUG o.JDBCSelectApp       main main       881 95 end of main method
+2023-05-06 12:28:27INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:27DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:27DEBUG o.JDBCSelectApp       main main       61 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:27INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:27DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:27DEBUG o.JDBCSelectApp       main main       48 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:28INFO o.JDBCSelectApp       main main       693 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       699 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       710 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:28WARN o.JDBCSelectApp       main main       711 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       712 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       712 95 end of main method
+2023-05-06 12:28:28INFO o.JDBCSelectApp       main main       658 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       662 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       675 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:28WARN o.JDBCSelectApp       main main       677 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       678 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       679 95 end of main method
+2023-05-06 12:28:28INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:28INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:28INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       4 39 Start of main(-) method.
+2023-05-06 12:28:28INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       6 39 Start of main(-) method.
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       87 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       109 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       114 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:28DEBUG o.JDBCSelectApp       main main       118 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:29INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:29INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:29INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:29INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:29INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       4 39 Start of main(-) method.
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       127 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       154 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       197 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:29DEBUG o.JDBCSelectApp       main main       187 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       211 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:30INFO o.JDBCSelectApp       main main       1448 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1455 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1471 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:30WARN o.JDBCSelectApp       main main       1472 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1473 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1474 95 end of main method
+2023-05-06 12:28:30INFO o.JDBCSelectApp       main main       1691 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1698 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1713 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:30WARN o.JDBCSelectApp       main main       1714 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1717 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1718 95 end of main method
+2023-05-06 12:28:30INFO o.JDBCSelectApp       main main       1750 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1758 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1775 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:30WARN o.JDBCSelectApp       main main       1776 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1779 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1779 95 end of main method
+2023-05-06 12:28:30INFO o.JDBCSelectApp       main main       1833 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1840 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1866 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:30WARN o.JDBCSelectApp       main main       1868 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1871 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       1874 95 end of main method
+2023-05-06 12:28:30INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:30INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:30DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:31INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:31DEBUG o.JDBCSelectApp       main main       4 39 Start of main(-) method.
+2023-05-06 12:28:31DEBUG o.JDBCSelectApp       main main       106 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:31INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:31DEBUG o.JDBCSelectApp       main main       5 39 Start of main(-) method.
+2023-05-06 12:28:31INFO o.JDBCSelectApp   <clinit> main       1 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:31DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:31DEBUG o.JDBCSelectApp       main main       167 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:31DEBUG o.JDBCSelectApp       main main       135 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:31DEBUG o.JDBCSelectApp       main main       221 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:31DEBUG o.JDBCSelectApp       main main       161 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:32INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       23 39 Start of main(-) method.
+2023-05-06 12:28:32INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       7 39 Start of main(-) method.
+2023-05-06 12:28:32INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       8 39 Start of main(-) method.
+2023-05-06 12:28:32INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       7 39 Start of main(-) method.
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       254 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       219 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       207 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:32INFO o.JDBCSelectApp       main main       2961 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       2969 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       2986 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:32WARN o.JDBCSelectApp       main main       2987 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       2989 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       2990 95 end of main method
+2023-05-06 12:28:32INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       5 39 Start of main(-) method.
+2023-05-06 12:28:32INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       376 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:32DEBUG o.JDBCSelectApp       main main       192 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       224 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:33INFO o.JDBCSelectApp       main main       3375 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       3383 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       3400 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:33WARN o.JDBCSelectApp       main main       3401 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       3402 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       3403 95 end of main method
+2023-05-06 12:28:33INFO o.JDBCSelectApp       main main       3675 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       3684 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       3699 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:33WARN o.JDBCSelectApp       main main       3700 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       3702 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       3702 95 end of main method
+2023-05-06 12:28:33INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       25 39 Start of main(-) method.
+2023-05-06 12:28:33INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       4 39 Start of main(-) method.
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       314 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       256 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:33INFO o.JDBCSelectApp       main main       4216 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:33DEBUG o.JDBCSelectApp       main main       4224 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       4238 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:34WARN o.JDBCSelectApp       main main       4239 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       4240 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       4241 95 end of main method
+2023-05-06 12:28:34INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       13 39 Start of main(-) method.
+2023-05-06 12:28:34INFO o.JDBCSelectApp       main main       4454 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       4462 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       4480 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:34WARN o.JDBCSelectApp       main main       4481 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       4482 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       4483 95 end of main method
+2023-05-06 12:28:34INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       4 39 Start of main(-) method.
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       239 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:34INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       2 39 Start of main(-) method.
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       213 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:34DEBUG o.JDBCSelectApp       main main       211 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:35INFO o.JDBCSelectApp   <clinit> main       0 27 in.ineuron.dao::JDBCSelectApp :: logger object ready
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       3 39 Start of main(-) method.
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       234 47 in.ineuron.dao.JDBCSelectApp:: Driver class loaded
+2023-05-06 12:28:35INFO o.JDBCSelectApp       main main       4785 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4792 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:35INFO o.JDBCSelectApp       main main       4669 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4676 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4810 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:35WARN o.JDBCSelectApp       main main       4814 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4819 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4820 95 end of main method
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4695 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:35WARN o.JDBCSelectApp       main main       4696 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4698 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4699 95 end of main method
+2023-05-06 12:28:35INFO o.JDBCSelectApp       main main       4760 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:35INFO o.JDBCSelectApp       main main       4808 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4766 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4815 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4784 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:35WARN o.JDBCSelectApp       main main       4784 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4833 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:35WARN o.JDBCSelectApp       main main       4834 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4785 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4786 95 end of main method
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4835 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:35DEBUG o.JDBCSelectApp       main main       4836 95 end of main method
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       4941 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4950 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4975 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       4976 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4977 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4977 95 end of main method
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       3927 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3937 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3952 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       3953 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3954 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3955 95 end of main method
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       3811 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3818 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3838 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       3839 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3840 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3841 95 end of main method
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       4013 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4021 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       3705 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3712 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4035 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       4036 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4037 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4038 95 end of main method
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3727 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       3728 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3730 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3731 95 end of main method
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       3847 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3855 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       4137 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4144 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3881 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       3882 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3883 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3884 95 end of main method
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4159 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       4159 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4161 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       4162 95 end of main method
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       3376 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3383 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3398 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       3400 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3401 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3401 95 end of main method
+2023-05-06 12:28:36INFO o.JDBCSelectApp       main main       3362 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3370 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3385 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:36WARN o.JDBCSelectApp       main main       3385 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3387 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:36DEBUG o.JDBCSelectApp       main main       3388 95 end of main method
+2023-05-06 12:28:37INFO o.JDBCSelectApp       main main       2863 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2870 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2883 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:37WARN o.JDBCSelectApp       main main       2884 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2886 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2887 95 end of main method
+2023-05-06 12:28:37INFO o.JDBCSelectApp       main main       2700 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2706 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2719 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:37WARN o.JDBCSelectApp       main main       2720 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2721 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2722 95 end of main method
+2023-05-06 12:28:37INFO o.JDBCSelectApp       main main       2719 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2726 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2740 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:37WARN o.JDBCSelectApp       main main       2740 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2742 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2743 95 end of main method
+2023-05-06 12:28:37INFO o.JDBCSelectApp       main main       2218 51 in.ineuron.dao.JDBCSelectApp:: Database connection establised succefully..
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2224 54 in.ineuron.dao.JDBCSelectApp:: Statement object created ....
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2235 57 in.ineuron.dao.JDBCSelectApp:: Query Executed Successfullyy..
+2023-05-06 12:28:37WARN o.JDBCSelectApp       main main       2235 69 in.ineuron.dao.JDBCSelectApp:: Using Deprecated method getXXX(coulmnNumber) to retieve data from resultSet, Anytime this method can be removed
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2236 88 in.ineuron.dao.JDBCSelectApp:: resources closed successfully..........
+2023-05-06 12:28:37DEBUG o.JDBCSelectApp       main main       2237 95 end of main method
