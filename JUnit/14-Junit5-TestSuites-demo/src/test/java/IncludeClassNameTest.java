@@ -6,7 +6,7 @@ import org.junit.platform.suite.api.IncludeClassNamePatterns;
 import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
-@SelectPackages("com.infosys")
+@SelectPackages("com.safvan")
 @IncludeClassNamePatterns(".*Multiplication.*")
 public class IncludeClassNameTest {
 

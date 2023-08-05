@@ -1,11 +1,11 @@
-package com.infosys.service.test;
+package com.safvan.service.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import com.infosys.service.Calculator;
+import com.safvan.service.Calculator;
 
 class CsvSourceTest {
 	private Calculator cobj = new Calculator();

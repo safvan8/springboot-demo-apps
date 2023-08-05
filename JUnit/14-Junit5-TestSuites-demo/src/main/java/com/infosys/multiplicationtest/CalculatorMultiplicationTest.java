@@ -1,10 +1,10 @@
-package com.infosys.multiplicationtest;
+package com.safvan.multiplicationtest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.infosys.service.Calculator;
+import com.safvan.service.Calculator;
 
 public class CalculatorMultiplicationTest {
 	private Calculator cobj = new Calculator();

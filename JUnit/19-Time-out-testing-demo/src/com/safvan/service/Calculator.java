@@ -16,4 +16,9 @@ public class Calculator {
 	public int division(int a, int b) {
 		return a / b;
 	}
+
+	public void delay(long time) throws InterruptedException {
+		Thread.sleep(time * 1000);
+	}
+
 }
