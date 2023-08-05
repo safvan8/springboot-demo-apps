@@ -1,10 +1,10 @@
-package com.infosys.divisiontest;
+package com.safvan.divisiontest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.infosys.service.Calculator;
+import com.safvan.service.Calculator;
 
 public class CalculatorDivisionTest {
 	private Calculator cobj = new Calculator();

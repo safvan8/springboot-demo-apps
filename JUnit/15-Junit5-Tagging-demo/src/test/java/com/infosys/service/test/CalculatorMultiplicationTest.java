@@ -1,4 +1,4 @@
-package com.infosys.service.test;
+package com.safvan.service.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
 
-import com.infosys.service.Calculator;
+import com.safvan.service.Calculator;
 
 class CalculatorMultiplicationTest {
 	private static final Logger logger = Logger.getLogger(CalculatorMultiplicationTest.class.getName());

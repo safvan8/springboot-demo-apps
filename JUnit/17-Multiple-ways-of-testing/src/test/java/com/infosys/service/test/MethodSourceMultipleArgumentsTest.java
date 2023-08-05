@@ -1,4 +1,4 @@
-package com.infosys.service.test;
+package com.safvan.service.test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,7 +10,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import com.infosys.service.Calculator;
+import com.safvan.service.Calculator;
 
 class MethodSourceMultipleArgumentsTest {
 	private Calculator cobj = new Calculator();
