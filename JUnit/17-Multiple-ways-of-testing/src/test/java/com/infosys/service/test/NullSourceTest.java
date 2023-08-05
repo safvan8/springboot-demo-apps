@@ -1,4 +1,4 @@
-package com.infosys.service.test;
+package com.safvan.service.test;
 
 import static org.junit.Assert.assertTrue;
 

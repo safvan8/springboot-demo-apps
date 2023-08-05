@@ -1,8 +1,8 @@
-package com.infosys.client;
+package com.safvan.client;
 
 import java.util.logging.Logger;
 
-import com.infosys.service.Calculator;
+import com.safvan.service.Calculator;
 
 public class Client {
 	private static final Logger logger = Logger.getLogger(Client.class.toString());

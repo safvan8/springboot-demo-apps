@@ -1,11 +1,11 @@
-package com.infosys.test;
+package com.safvan.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
 
-import com.infosys.service.Calculator;
+import com.safvan.service.Calculator;
 
 class CalculatorTest {
 	private Calculator cobj = new Calculator();

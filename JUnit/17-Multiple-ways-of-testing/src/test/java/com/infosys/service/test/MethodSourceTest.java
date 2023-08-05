@@ -1,4 +1,4 @@
-package com.infosys.service.test;
+package com.safvan.service.test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import com.infosys.service.Calculator;
+import com.safvan.service.Calculator;
 
 class MethodSourceTest {
 	private Calculator cobj = new Calculator();

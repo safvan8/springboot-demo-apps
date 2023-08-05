@@ -6,8 +6,8 @@ import org.junit.platform.suite.api.SelectPackages;
 import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
-@SelectPackages("com.infosys")
-@IncludePackages("com.infosys.additiontest")
+@SelectPackages("com.safvan")
+@IncludePackages("com.safvan.additiontest")
 public class IncludePackageTest {
 
 }

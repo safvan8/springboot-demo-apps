@@ -6,7 +6,7 @@ import org.junit.platform.suite.api.SelectPackages;
 import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
-@SelectPackages("com.infosys")
+@SelectPackages("com.safvan")
 @ExcludeClassNamePatterns(".*Division.*")
 public class ExcludeClassNameTest {
 

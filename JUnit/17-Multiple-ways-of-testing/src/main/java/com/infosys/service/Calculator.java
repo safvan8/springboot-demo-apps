@@ -1,4 +1,4 @@
-package com.infosys.service;
+package com.safvan.service;
 
 public class Calculator {
 	public int addition(int a, int b) {
