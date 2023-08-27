@@ -31,4 +31,8 @@ public class HomeController {
 		return "StudentPage";
 	}
 
+	@GetMapping("/denied")
+	public String showDeniedPage() {
+		return "DeniedPage";
+	}
 }
