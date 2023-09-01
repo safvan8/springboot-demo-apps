@@ -1,0 +1,2075 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Aug 29 10:52:53 IST 2023</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Literal">Literal</td>
+<td class="ClassOfCaller">ClassOfCaller</td>
+<td class="Literal">Literal</td>
+<td class="Level">Level</td>
+<td class="Literal">Literal</td>
+<td class="Message">Message</td>
+<td class="LineSeparator">LineSeparator</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">StartupInfoLogger</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Starting Application using Java 17.0.7 on Safvan with PID 15144 (S:\Eclipse2022\Spring-Security\15-SBSecurity-first-app-JavaJornal-\target\classes started by safvan in S:\Eclipse2022\Spring-Security\15-SBSecurity-first-app-JavaJornal-)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SpringApplication</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">No active profile set, falling back to 1 default profile: &quot;default&quot;</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DeferredLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DeferredLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">TomcatWebServer</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Tomcat initialized with port(s): 8888 (http)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Initializing ProtocolHandler [&quot;http-nio-8888&quot;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Starting service [Tomcat]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Starting Servlet engine: [Apache Tomcat/9.0.79]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Initializing Spring embedded WebApplicationContext</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ServletWebServerApplicationContext</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Root WebApplicationContext: initialization completed in 744 ms</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ExpressionBasedFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Adding web access control expression [permitAll] for Ant [pattern=&#39;/home&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ExpressionBasedFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Adding web access control expression [authenticated] for Ant [pattern=&#39;/welcome&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ExpressionBasedFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Adding web access control expression [hasAnyAuthority(&#39;ADMIN&#39;)] for Ant [pattern=&#39;/admin&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ExpressionBasedFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Adding web access control expression [hasAuthority(&#39;EMPLOYEE&#39;)] for Ant [pattern=&#39;/emp&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ExpressionBasedFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Adding web access control expression [hasAuthority(&#39;STUDENT&#39;)] for Ant [pattern=&#39;/std&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ExpressionBasedFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Adding web access control expression [authenticated] for any request</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Validated configuration attributes</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Validated configuration attributes</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultSecurityFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20d079bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@424de947, org.springframework.security.web.context.SecurityContextPersistenceFilter@50e099f9, org.springframework.security.web.header.HeaderWriterFilter@7c688f03, org.springframework.security.web.csrf.CsrfFilter@11a2093e, org.springframework.security.web.authentication.logout.LogoutFilter@2c9ba14a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@407f6704, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b5d46fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a99b0ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74162102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5248caf0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b95b2c, org.springframework.security.web.session.SessionManagementFilter@6953913c, org.springframework.security.web.access.ExceptionTranslationFilter@5064fa92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c03caf]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">OptionalLiveReloadServer</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">LiveReload server is running on port 35729</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Starting ProtocolHandler [&quot;http-nio-8888&quot;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">TomcatWebServer</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Tomcat started on port(s): 8888 (http) with context path &#39;&#39;</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">StartupInfoLogger</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Started Application in 1.546 seconds (JVM running for 2.123)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FrameworkServlet</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Initializing Servlet &#39;dispatcherServlet&#39;</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FrameworkServlet</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Completed initialization in 1 ms</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Trying to match request against DefaultSecurityFilterChain [RequestMatcher=any request, Filters=[org.springframework.security.web.session.DisableEncodeUrlFilter@20d079bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@424de947, org.springframework.security.web.context.SecurityContextPersistenceFilter@50e099f9, org.springframework.security.web.header.HeaderWriterFilter@7c688f03, org.springframework.security.web.csrf.CsrfFilter@11a2093e, org.springframework.security.web.authentication.logout.LogoutFilter@2c9ba14a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@407f6704, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b5d46fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a99b0ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74162102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5248caf0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b95b2c, org.springframework.security.web.session.SessionManagementFilter@6953913c, org.springframework.security.web.access.ExceptionTranslationFilter@5064fa92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c03caf]] (1/1)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Securing GET /welcome</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DisableEncodeUrlFilter (1/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking WebAsyncManagerIntegrationFilter (2/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SecurityContextPersistenceFilter (3/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not find SecurityContext in HttpSession 6748FD6B6F94175794095D7A0DD8727E using the SPRING_SECURITY_CONTEXT session attribute</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Created SecurityContextImpl [Null authentication]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Set SecurityContextHolder to empty SecurityContext</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking HeaderWriterFilter (4/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking CsrfFilter (5/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">CsrfFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not protect against CSRF since request did not match CsrfNotRequired [TRACE, HEAD, GET, OPTIONS]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking LogoutFilter (6/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">LogoutFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/logout&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking UsernamePasswordAuthenticationFilter (7/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractAuthenticationProcessingFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/login&#39;, POST]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DefaultLoginPageGeneratingFilter (8/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DefaultLogoutPageGeneratingFilter (9/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultLogoutPageGeneratingFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not render default logout page since request did not match [Ant [pattern=&#39;/logout&#39;, GET]]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking RequestCacheAwareFilter (10/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionRequestCache</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request /welcome to the saved one DefaultSavedRequest [http://localhost:8888/account/welcome]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SecurityContextHolderAwareRequestFilter (11/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking AnonymousAuthenticationFilter (12/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AnonymousAuthenticationFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Set SecurityContextHolder to AnonymousAuthenticationToken [Principal=anonymousUser, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ROLE_ANONYMOUS]]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SessionManagementFilter (13/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking ExceptionTranslationFilter (14/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking FilterSecurityInterceptor (15/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/home&#39;] - [permitAll] (1/6)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not re-authenticate AnonymousAuthenticationToken [Principal=anonymousUser, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ROLE_ANONYMOUS]] before authorizing</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Authorizing filter invocation [GET /welcome] with attributes [authenticated]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">WebExpressionVoter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Voted to deny authorization</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Failed to authorize filter invocation [GET /welcome] with attributes [authenticated] using AffirmativeBased [DecisionVoters=[org.springframework.security.web.access.expression.WebExpressionVoter@3d965d88], AllowIfAllAbstainDecisions=false]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ExceptionTranslationFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Sending AnonymousAuthenticationToken [Principal=anonymousUser, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ROLE_ANONYMOUS]] to authentication entry point since access is denied</td>
+<td class="LineSeparator">
+</td>
+</tr>
+<tr><td class="Exception" colspan="6">org.springframework.security.access.AccessDeniedException: Access is denied
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:73)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.access.intercept.AbstractSecurityInterceptor.attemptAuthorization(AbstractSecurityInterceptor.java:239)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.access.intercept.AbstractSecurityInterceptor.beforeInvocation(AbstractSecurityInterceptor.java:208)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:113)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.base/java.lang.Thread.run(Thread.java:833)
+</td></tr>
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionRequestCache</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Saved request http://localhost:8888/welcome to session</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultRedirectStrategy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Redirecting to http://localhost:8888/login</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HstsHeaderWriter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Not injecting HSTS header since it did not match request to [Is Secure]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository$SaveToSessionResponseWrapper</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Did not store empty SecurityContext</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository$SaveToSessionResponseWrapper</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Did not store empty SecurityContext</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Cleared SecurityContextHolder to complete request</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Trying to match request against DefaultSecurityFilterChain [RequestMatcher=any request, Filters=[org.springframework.security.web.session.DisableEncodeUrlFilter@20d079bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@424de947, org.springframework.security.web.context.SecurityContextPersistenceFilter@50e099f9, org.springframework.security.web.header.HeaderWriterFilter@7c688f03, org.springframework.security.web.csrf.CsrfFilter@11a2093e, org.springframework.security.web.authentication.logout.LogoutFilter@2c9ba14a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@407f6704, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b5d46fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a99b0ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74162102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5248caf0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b95b2c, org.springframework.security.web.session.SessionManagementFilter@6953913c, org.springframework.security.web.access.ExceptionTranslationFilter@5064fa92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c03caf]] (1/1)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Securing GET /login</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DisableEncodeUrlFilter (1/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking WebAsyncManagerIntegrationFilter (2/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SecurityContextPersistenceFilter (3/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not find SecurityContext in HttpSession 6748FD6B6F94175794095D7A0DD8727E using the SPRING_SECURITY_CONTEXT session attribute</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Created SecurityContextImpl [Null authentication]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Set SecurityContextHolder to empty SecurityContext</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking HeaderWriterFilter (4/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking CsrfFilter (5/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">CsrfFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not protect against CSRF since request did not match CsrfNotRequired [TRACE, HEAD, GET, OPTIONS]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking LogoutFilter (6/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">LogoutFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/logout&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking UsernamePasswordAuthenticationFilter (7/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractAuthenticationProcessingFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/login&#39;, POST]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DefaultLoginPageGeneratingFilter (8/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HstsHeaderWriter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Not injecting HSTS header since it did not match request to [Is Secure]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository$SaveToSessionResponseWrapper</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Did not store empty SecurityContext</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository$SaveToSessionResponseWrapper</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Did not store empty SecurityContext</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Cleared SecurityContextHolder to complete request</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Trying to match request against DefaultSecurityFilterChain [RequestMatcher=any request, Filters=[org.springframework.security.web.session.DisableEncodeUrlFilter@20d079bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@424de947, org.springframework.security.web.context.SecurityContextPersistenceFilter@50e099f9, org.springframework.security.web.header.HeaderWriterFilter@7c688f03, org.springframework.security.web.csrf.CsrfFilter@11a2093e, org.springframework.security.web.authentication.logout.LogoutFilter@2c9ba14a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@407f6704, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b5d46fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a99b0ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74162102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5248caf0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b95b2c, org.springframework.security.web.session.SessionManagementFilter@6953913c, org.springframework.security.web.access.ExceptionTranslationFilter@5064fa92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c03caf]] (1/1)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Securing POST /login</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DisableEncodeUrlFilter (1/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking WebAsyncManagerIntegrationFilter (2/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SecurityContextPersistenceFilter (3/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not find SecurityContext in HttpSession 6748FD6B6F94175794095D7A0DD8727E using the SPRING_SECURITY_CONTEXT session attribute</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Created SecurityContextImpl [Null authentication]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Set SecurityContextHolder to empty SecurityContext</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking HeaderWriterFilter (4/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking CsrfFilter (5/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking LogoutFilter (6/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">LogoutFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/logout&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking UsernamePasswordAuthenticationFilter (7/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">ProviderManager</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Authenticating request with DaoAuthenticationProvider (1/3)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractUserDetailsAuthenticationProvider</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Authenticated user</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">CompositeSessionAuthenticationStrategy</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Preparing session with ChangeSessionIdAuthenticationStrategy (1/2)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSessionFixationProtectionStrategy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Changed session id from 6748FD6B6F94175794095D7A0DD8727E</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">CompositeSessionAuthenticationStrategy</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Preparing session with CsrfAuthenticationStrategy (2/2)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">CsrfAuthenticationStrategy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Replaced CSRF Token</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractAuthenticationProcessingFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionRequestCache</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Removing DefaultSavedRequest from session if present</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultRedirectStrategy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Redirecting to /welcome</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HstsHeaderWriter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Not injecting HSTS header since it did not match request to [Is Secure]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@60fb3be2]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@60fb3be2]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Cleared SecurityContextHolder to complete request</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Trying to match request against DefaultSecurityFilterChain [RequestMatcher=any request, Filters=[org.springframework.security.web.session.DisableEncodeUrlFilter@20d079bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@424de947, org.springframework.security.web.context.SecurityContextPersistenceFilter@50e099f9, org.springframework.security.web.header.HeaderWriterFilter@7c688f03, org.springframework.security.web.csrf.CsrfFilter@11a2093e, org.springframework.security.web.authentication.logout.LogoutFilter@2c9ba14a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@407f6704, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b5d46fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a99b0ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74162102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5248caf0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b95b2c, org.springframework.security.web.session.SessionManagementFilter@6953913c, org.springframework.security.web.access.ExceptionTranslationFilter@5064fa92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c03caf]] (1/1)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Securing GET /welcome</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DisableEncodeUrlFilter (1/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking WebAsyncManagerIntegrationFilter (2/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SecurityContextPersistenceFilter (3/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]] from SPRING_SECURITY_CONTEXT</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Set SecurityContextHolder to SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking HeaderWriterFilter (4/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking CsrfFilter (5/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">CsrfFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not protect against CSRF since request did not match CsrfNotRequired [TRACE, HEAD, GET, OPTIONS]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking LogoutFilter (6/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">LogoutFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/logout&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking UsernamePasswordAuthenticationFilter (7/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractAuthenticationProcessingFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/login&#39;, POST]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DefaultLoginPageGeneratingFilter (8/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DefaultLogoutPageGeneratingFilter (9/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultLogoutPageGeneratingFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not render default logout page since request did not match [Ant [pattern=&#39;/logout&#39;, GET]]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking RequestCacheAwareFilter (10/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionRequestCache</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">No saved request</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SecurityContextHolderAwareRequestFilter (11/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking AnonymousAuthenticationFilter (12/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AnonymousAuthenticationFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not set SecurityContextHolder since already authenticated UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SessionManagementFilter (13/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking ExceptionTranslationFilter (14/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking FilterSecurityInterceptor (15/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/home&#39;] - [permitAll] (1/6)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not re-authenticate UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]] before authorizing</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Authorizing filter invocation [GET /welcome] with attributes [authenticated]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Authorized filter invocation [GET /welcome] with attributes [authenticated]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractSecurityInterceptor</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not switch RunAs authentication since RunAsManager returned null</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Secured GET /welcome</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HstsHeaderWriter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Not injecting HSTS header since it did not match request to [Is Secure]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Cleared SecurityContextHolder to complete request</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Trying to match request against DefaultSecurityFilterChain [RequestMatcher=any request, Filters=[org.springframework.security.web.session.DisableEncodeUrlFilter@20d079bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@424de947, org.springframework.security.web.context.SecurityContextPersistenceFilter@50e099f9, org.springframework.security.web.header.HeaderWriterFilter@7c688f03, org.springframework.security.web.csrf.CsrfFilter@11a2093e, org.springframework.security.web.authentication.logout.LogoutFilter@2c9ba14a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@407f6704, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b5d46fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a99b0ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74162102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5248caf0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b95b2c, org.springframework.security.web.session.SessionManagementFilter@6953913c, org.springframework.security.web.access.ExceptionTranslationFilter@5064fa92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c03caf]] (1/1)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Securing GET /error</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DisableEncodeUrlFilter (1/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking WebAsyncManagerIntegrationFilter (2/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SecurityContextPersistenceFilter (3/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionSecurityContextRepository</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]] from SPRING_SECURITY_CONTEXT</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Set SecurityContextHolder to SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking HeaderWriterFilter (4/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking CsrfFilter (5/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking LogoutFilter (6/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">LogoutFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/logout&#39;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking UsernamePasswordAuthenticationFilter (7/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AbstractAuthenticationProcessingFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/login&#39;, POST]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DefaultLoginPageGeneratingFilter (8/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking DefaultLogoutPageGeneratingFilter (9/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking RequestCacheAwareFilter (10/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">HttpSessionRequestCache</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">No saved request</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SecurityContextHolderAwareRequestFilter (11/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking AnonymousAuthenticationFilter (12/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">AnonymousAuthenticationFilter</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not set SecurityContextHolder since already authenticated UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sam, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6748FD6B6F94175794095D7A0DD8727E], Granted Authorities=[ADMIN]]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking SessionManagementFilter (13/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking ExceptionTranslationFilter (14/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Invoking FilterSecurityInterceptor (15/15)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">FilterChainProxy$VirtualFilterChain</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Secured GET /error</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/home&#39;] - [permitAll] (1/6)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/welcome&#39;] - [authenticated] (2/6)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/admin&#39;] - [hasAnyAuthority(&#39;ADMIN&#39;)] (3/6)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/emp&#39;] - [hasAuthority(&#39;EMPLOYEE&#39;)] (4/6)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="trace odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DefaultFilterInvocationSecurityMetadataSource</td>
+<td class="Literal">] </td>
+<td class="Level">TRACE</td>
+<td class="Literal"> </td>
+<td class="Message">Did not match request to Ant [pattern=&#39;/std&#39;] - [hasAuthority(&#39;STUDENT&#39;)] (5/6)</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="debug even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SecurityContextPersistenceFilter</td>
+<td class="Literal">] </td>
+<td class="Level">DEBUG</td>
+<td class="Literal"> </td>
+<td class="Message">Cleared SecurityContextHolder to complete request</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Application shutdown requested.</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Pausing ProtocolHandler [&quot;http-nio-8888&quot;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Stopping service [Tomcat]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info even">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Destroying Spring FrameworkServlet &#39;dispatcherServlet&#39;</td>
+<td class="LineSeparator">
+</td>
+</tr>
+
+<tr class="info odd">
+<td class="Literal">[</td>
+<td class="ClassOfCaller">DirectJDKLog</td>
+<td class="Literal">] </td>
+<td class="Level">INFO</td>
+<td class="Literal"> </td>
+<td class="Message">Stopping ProtocolHandler [&quot;http-nio-8888&quot;]</td>
+<td class="LineSeparator">
+</td>
+</tr>
+</table>
+</body></html>
