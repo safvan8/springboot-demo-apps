@@ -12,7 +12,6 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 - [ ] [Set up project integrations](https://gitlab.com/safvan8/springbootdemo-programs/-/settings/integrations)
 
-
 ## Test and Deploy
 
 Use the built-in continuous integration in GitLab.
