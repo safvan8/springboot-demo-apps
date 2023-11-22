@@ -13,7 +13,7 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 - [ ] [Set up project integrations](https://gitlab.com/safvan8/springbootdemo-programs/-/settings/integrations)
  
 ## Test and Deploy
-
+ 
 
 - [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
 - [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
